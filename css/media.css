@@ -1,8 +1,4 @@
 @media (min-height: 640px) and (orientation: portrait) {
-  body {
-    overflow: hidden;
-  }
-
   .contactTop {
     display: none;
   }
