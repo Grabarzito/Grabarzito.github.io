@@ -1,0 +1,142 @@
+section.ourServicesSection .ourServicesCard {
+  position: relative;
+  width: 30vw;
+  height: 70vh;
+  margin-top: 23vh;
+  background-color: #0c002b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5vw 8vw rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  float: left;
+}
+
+section.ourServicesSection .ourServicesCard:nth-child(1) {
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+}
+
+section.ourServicesSection .ourServicesCard:nth-child(2) {
+  margin-right: 12.5vw;
+}
+
+section.ourServicesSection .ourServicesCard::before {
+  content: "";
+  position: absolute;
+  top: 0.1vw;
+  left: 0.1vw;
+  bottom: 0.1vw;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+section.ourServicesSection .ourServicesCard .cardContent {
+  padding: 0.15vw;
+  text-align: center;
+}
+
+section.ourServicesSection .ourServicesCard .cardContent p {
+  position: relative;
+  padding: 7vh 1vw 0 1vw;
+  font-size: 3vh;
+  color: white;
+  z-index: 2;
+  opacity: 0.4;
+  letter-spacing: 0.1vw;
+  transition: 0.5s;
+  line-height: 1.5;
+}
+
+section.ourServicesSection .ourServicesCard:hover .cardContent p {
+  opacity: 0.8;
+}
+
+section.ourServicesSection .ourServicesCard span {
+  opacity: 0;
+  transition: 0.5s;
+}
+
+section.ourServicesSection .ourServicesCard:hover span {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #1779ff);
+  animation: animate1 3s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, #1779ff);
+  animation: animate2 3s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate2 {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(3) {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to left, transparent, #1779ff);
+  animation: animate3 3s linear infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(to top, transparent, #1779ff);
+  animation: animate4 3s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes animate4 {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}

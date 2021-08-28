@@ -1,0 +1,372 @@
+@media (min-height: 640px) and (orientation: portrait) {
+  body {
+    overflow-y: hidden;
+  }
+
+  .contactTop {
+    display: none;
+  }
+
+  main .titleLine .spanMainTitle {
+    display: block;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .nav-mobile {
+    display: block;
+  }
+
+  main .mainTitle {
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    width: 90vw;
+    z-index: 1;
+  }
+
+  main .mainTitle h1 {
+    font-size: 8.5vh;
+    line-height: 10vh;
+    letter-spacing: 0.15vw;
+    text-shadow: 0.75vw 0.75vw black;
+  }
+
+  main .moreInfo {
+    display: none;
+  }
+
+  section.aboutCompanySection {
+    top: 100vh;
+    height: 100vh;
+  }
+
+  .gradient-border {
+  	 width: 80vw;
+  	 height: 80vh;
+     margin: 15.25vh auto;
+  }
+
+  section.aboutCompanySection h1 {
+    font-size: 6vh;
+    letter-spacing: 0.75vw;
+    padding-top: 6vh;
+  }
+
+  section.aboutCompanySection p {
+    font-size: 2.5vh;
+    line-height: 1.7;
+    letter-spacing: 0.1vw;
+  }
+
+  section.ourServicesSection {
+    height: 200vh;
+  }
+
+  section.ourServicesSection .ourServicesCard {
+    width: 75vw;
+    height: 70vh;
+    margin-top: 23vh;
+    float: none;
+  }
+
+  section.ourServicesSection .ourServicesCard:nth-child(1) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.ourServicesSection .ourServicesCard:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    opacity: 0.8;
+    font-size: 3.5vh;
+    padding: 0 3vw 0 3vw;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    opacity: 0.8;
+    font-size: 3.5vh;
+    padding: 7vh 3vw 0 3vw;
+  }
+
+  section.ourServicesSection .ourServicesCard span {
+    opacity: 1;
+  }
+
+  section.priceListSection {
+    top: 400vh;
+    height: 100vh;
+  }
+
+  section.priceListSection .priceListDiv {
+    width: 90vw;
+    height: 80vh;
+    margin-top: 15vh;
+  }
+
+  section.priceListSection .priceListDiv .priceListDivXD {
+    width: 82vw;
+    height: 18vh;
+    line-height: 7vh;
+    margin: 2.4vh auto;
+    border-bottom: 0.5vh solid royalblue;
+  }
+
+  section.priceListSection .priceListDiv .cablesDiv {
+    border: none;
+  }
+
+  section.priceListSection .priceListDiv .spanName {
+    height: 4vh;
+    width: 82vw;
+    font-size: 3.5vh;
+    text-align: center;
+  }
+
+  section.priceListSection .priceListDiv .spanPriceFirst {
+    width: 34vw;
+    margin-left: 20vw;
+    line-height: 5vh;
+    padding-bottom: 5vh;
+    font-size: 3.5vh;
+    letter-spacing: 0.1vw;
+    text-align: center;
+  }
+
+  section.priceListSection .priceListDiv .spanPriceSecond {
+    font-size: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  section.priceListSection .priceListDiv span:nth-child(4) {
+    display: none;
+  }
+
+  section.priceListSection .priceListDiv input {
+    display: none;
+  }
+
+  section.priceListSection .priceListDiv button {
+    display: none;
+  }
+
+  section.contactSection {
+    top: 500vh;
+    height: 100vh;
+  }
+
+  section.contactSection .contactText {
+    height: 60vh;
+    width: 80vw;
+    margin: 12vh auto 0 auto;
+    text-shadow: 0.5vw 0.5vw black;
+    border: none;
+  }
+
+  section.contactSection .contactText h1 {
+    font-size: 7vh;
+  }
+
+  section.contactSection .contactText h2 {
+    float: left;
+    margin-left: 8vh;
+    margin-right: 8vh;
+    font-size: 4vh;
+    margin-bottom: 8vh;
+    color: #ddd;
+  }
+
+  section.contactSection .contactText h2.email {
+    margin-left: 4vh;
+  }
+
+
+  section.contactSection .contactText h3 {
+    clear: both;
+    font-size: 3.5vh;
+  }
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(1) {
+  height: 0.5vw;
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(2) {
+  width: 0.5vw;
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(3) {
+  height: 0.5vw;
+}
+
+section.ourServicesSection .ourServicesCard span:nth-child(4) {
+  width: 0.5vw;
+}
+
+@media (min-height: 740px) and (orientation: portrait) {
+  .nav-mobile .logoImage img {
+    width: 16vw;
+    height: 7vh;
+  }
+
+  .nav-mobile .logoText {
+    padding-top: 1vh;
+    width: 50vw;
+    font-size: 3.5vh;
+    line-height: 3vh;
+  }
+
+  .nav-mobile .menu div {
+    margin: 6vh auto;
+    font-size: 3.3vh;
+    line-height: 5.5vh;
+  }
+
+  main .mainTitle {
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    width: 90vw;
+    z-index: 1;
+  }
+
+  main .mainTitle h1 {
+    font-size: 8.5vh;
+    line-height: 10vh;
+    letter-spacing: 0.15vw;
+    text-shadow: 0.75vw 0.75vw black;
+  }
+
+  section.aboutCompanySection h1 {
+    font-size: 5vh;
+    letter-spacing: 0.75vw;
+    padding-top: 6vh;
+  }
+
+  section.aboutCompanySection p {
+    font-size: 2.3vh;
+    line-height: 1.7;
+    letter-spacing: 0.1vw;
+  }
+
+  section.ourServicesSection .ourServicesCard {
+    width: 75vw;
+    height: 70vh;
+    margin-top: 23vh;
+    float: none;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    opacity: 0.8;
+    font-size: 3.5vh;
+    padding: 0 3vw 0 3vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  main .titleLine .spanMainTitle {
+    display: inline;
+  }
+
+  nav {
+    display: block;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  nav .logoText {
+    font-size: 3.3vh;
+  }
+
+  nav .navDivs div {
+    font-size: 2.5vh;
+  }
+
+  main .mainTitle {
+    top: 40vh;
+    left: 14.5vw;
+    width: 70vw;
+    height: 30vh;
+  }
+
+  main .mainMobileBr {
+    display: none;
+  }
+
+  main .moreInfo {
+    display: block;
+  }
+
+  section.aboutCompanySection h2 {
+    height: 11vh;
+  }
+
+  section.aboutCompanySection p {
+    height: 49vh;
+    font-size: 3.3vh;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    font-size: 3.7vh;
+  }
+
+  section.ourServicesSection .ourServicesCard span:nth-child(1) {
+    height: 0.2vw;
+  }
+
+  section.ourServicesSection .ourServicesCard span:nth-child(2) {
+    width: 0.2vw;
+  }
+
+  section.ourServicesSection .ourServicesCard span:nth-child(3) {
+    height: 0.2vw;
+  }
+
+  section.ourServicesSection .ourServicesCard span:nth-child(4) {
+    width: 0.2vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  .contactTop a {
+    font-size: 2.3vh;
+  }
+
+  nav .logoText {
+    font-size: 3.5vh;
+  }
+
+  nav .navDivs div {
+    font-size: 2.8vh;
+  }
+
+  section.aboutCompanySection p {
+    font-size: 3.4vh;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    font-size: 4vh;
+  }
+}
+
+@media (min-width: 2300px) {
+  nav .navDivs div {
+    font-size: 2.5vh;
+  }
+
+  section.aboutCompanySection p {
+    font-size: 3.1vh;
+  }
+
+  section.ourServicesSection .ourServicesCard .cardContent p {
+    font-size: 3.7vh;
+  }
+}
