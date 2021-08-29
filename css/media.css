@@ -130,7 +130,6 @@
     line-height: 5vh;
     padding-bottom: 5vh;
     font-size: 3.5vh;
-    letter-spacing: 0.1vw;
     text-align: center;
   }
 
@@ -263,6 +262,9 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
     font-size: 3.5vh;
     padding: 0 3vw 0 3vw;
   }
+
+  section.priceListSection .priceListDiv .spanPriceFirst {
+    font-size: 3.2vh;
 }
 
 @media (min-width: 1300px) {
