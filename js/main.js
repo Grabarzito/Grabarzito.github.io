@@ -52,8 +52,45 @@ const closeNavMobile = function() {
 
 // SCROLL TO POSITION
 
-var clientWidth = function () {  return Math.max(window.innerWidth, document.documentElement.clientWidth);};
-var clientHeight = function () {  return Math.max(window.innerHeight, document.documentElement.clientHeight);};
+var getUsableHeight = function() {
+	"use strict";
+
+	// check if this page is within a app frame
+	var isInAppMode = ("standalone" in navigator && navigator.standalone) || (window.chrome && window.top.chrome.app && window.top.chrome.app.isInstalled);
+
+	var ua = navigator.userAgent;
+	// memoized values
+	var isIphone = ua.indexOf('iPhone') !== -1 || ua.indexOf('iPod') !== -1;
+	var isIpad = ua.indexOf('iPad') !== -1;
+	var isAndroid = ua.indexOf('Android') !== -1;
+	var isMobile = isIphone || isIpad || isAndroid;
+
+	// compute the missing area taken up by the header of the web browser to offset the screen height
+	var usableOffset = 0;
+	if (isIphone) {
+		usableOffset = 20;
+	} else if (isAndroid && ua.indexOf('Chrome') === -1) {
+		usableOffset = 1;
+	}
+
+	return function() {
+		if (!isMobile) {
+			return window.innerHeight;
+		}
+		var isLandscape = window.innerWidth > window.innerHeight, height;
+		// on ios devices, this must use screen
+		if(isIphone) {
+			height = isLandscape ? screen.width : screen.height;
+			if(!isInAppMode) {
+				height -= isLandscape ? 32 : 44;
+				height += 1;
+			}
+		} else {
+			height = (isLandscape ? window.outerWidth : window.outerHeight) / (window.devicePixelRatio || 1);
+		}
+		return height - usableOffset;
+	};
+};
 
 function startScroll() {
   window.scrollTo({
