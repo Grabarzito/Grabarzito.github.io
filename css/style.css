@@ -25,10 +25,9 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 5.5vh;
+  height: 4vh;
   background-color: white;
   text-align: center;
-  border-bottom: 0.5vh solid black;
   z-index: 99;
 }
 
@@ -46,13 +45,12 @@ body {
 
 nav {
   position: fixed;
-  top: 5.5vh;
+  top: 4vh;
   left: 0;
   width: 100vw;
   height: 10.5vh;
   background-color: white;
   font-family: 'Raleway', sans-serif;
-  border-bottom: 0.5vh solid black;
   z-index: 99;
 }
 
@@ -93,7 +91,7 @@ nav .logoText2 {
 
 nav .navDivs {
   position: fixed;
-  top: 5.5vh;
+  top: 4.5vh;
   right: 0;
   z-index: 99;
 }
@@ -105,7 +103,6 @@ nav .navDivs div {
   margin-right: 2vw;
   text-align: center;
   color: black;
-  text-transform: uppercase;
   font-size: 2.8vh;
   line-height: 7vh;
 }
@@ -188,7 +185,7 @@ section.aboutCompanySection {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #08001b;
+  background-color: lime;
   color: #eee;
   z-index: 1;
 }
@@ -210,6 +207,7 @@ section.aboutCompanySection p {
   line-height: 1.6;
   letter-spacing: 0.08vw;
   text-align: center;
+  font-size: 2vh;
   padding: 3vh 4.5vw;
 }
 
@@ -219,7 +217,7 @@ section.ourServicesSection {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #0c0029;
+  background-color: #7a4f32;
   z-index: 1;
 }
 
@@ -328,7 +326,7 @@ section.contactSection {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: #222;
+  background-color: lime;
   z-index: 1;
 }
 

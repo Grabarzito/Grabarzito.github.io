@@ -63,7 +63,7 @@ section.ourServicesSection .ourServicesCard:hover span {
   transition: 0.5s;
 }
 
-section.ourServicesSection .ourServicesCard span:nth-child(1) {
+/* section.ourServicesSection .ourServicesCard span:nth-child(1) {
   position: absolute;
   top: 0;
   left: 0;
@@ -139,4 +139,4 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
   100% {
     transform: translateY(-100%);
   }
-}
+} */
