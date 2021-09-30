@@ -265,6 +265,7 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
 
   section.priceListSection .priceListDiv .spanPriceFirst {
     font-size: 3.2vh;
+  }
 }
 
 @media (min-width: 1300px) {
