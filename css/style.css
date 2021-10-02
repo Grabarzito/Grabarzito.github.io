@@ -80,6 +80,7 @@ nav .logoText {
   width: 20vw;
   font-size: 3.5vh;
   line-height: 4vh;
+  text-transform: uppercase;
 }
 
 nav .logoText1 {
@@ -355,10 +356,14 @@ section.contactSection .contactText h2 {
   color: #ddd;
   float: left;
   margin-left: 12vw;
-  margin-bottom: 8vh;
+  margin-bottom: 10vh;
 }
 
 section.contactSection .contactText h3 {
   clear: both;
-  font-size: 2.5vh;
+  font-size: 2vh;
+}
+
+section.contactSection .contactText .address h3 {
+
 }

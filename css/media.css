@@ -3,6 +3,19 @@
     display: none;
   }
 
+  .nav-mobile .logoImage img {
+    width: 16vw;
+    height: 7vh;
+  }
+
+  .nav-mobile .logoText {
+    text-transform: uppercase;
+    padding-top: 1vh;
+    width: 70vw;
+    font-size: 3.5vh;
+    line-height: 3vh;
+  }
+
   main .titleLine .spanMainTitle {
     display: block;
   }
@@ -166,25 +179,27 @@
 
   section.contactSection .contactText h1 {
     font-size: 7vh;
+    margin-bottom: 10vh;
   }
 
   section.contactSection .contactText h2 {
     float: left;
     margin-left: 8vh;
     margin-right: 8vh;
-    font-size: 4vh;
-    margin-bottom: 8vh;
+    font-size: 3.5vh;
+    margin-bottom: 4vh;
     color: #ddd;
   }
 
   section.contactSection .contactText h2.email {
     margin-left: 4vh;
+    margin-bottom: 15vh;
   }
 
 
   section.contactSection .contactText h3 {
     clear: both;
-    font-size: 3.5vh;
+    font-size: 3vh;
   }
 }
 
@@ -205,18 +220,6 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
 }
 
 @media (min-height: 740px) and (orientation: portrait) {
-  .nav-mobile .logoImage img {
-    width: 16vw;
-    height: 7vh;
-  }
-
-  .nav-mobile .logoText {
-    padding-top: 1vh;
-    width: 70vw;
-    font-size: 3.5vh;
-    line-height: 3vh;
-  }
-
   .nav-mobile .menu div {
     margin: 6vh auto;
     font-size: 3.3vh;
