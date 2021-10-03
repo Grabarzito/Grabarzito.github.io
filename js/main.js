@@ -50,9 +50,6 @@ const closeNavMobile = function() {
   }
 });
 
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-
 // SCROLL TO POSITION
 
 function startScroll() {
@@ -100,7 +97,7 @@ function startScrollMobile() {
 
 function aboutCompanyScrollMobile() {
   window.scrollTo({
-    top: vh * 100,
+    top: window.visualViewport.height,
     behavior: 'smooth',
   });
   return closeNavMobile();
@@ -108,7 +105,7 @@ function aboutCompanyScrollMobile() {
 
 function ourServicesScrollMobile() {
   window.scrollTo({
-    top: vh * 200,
+    top: window.visualViewport.height * 2,
     behavior: 'smooth',
   });
   return closeNavMobile();
@@ -116,7 +113,7 @@ function ourServicesScrollMobile() {
 
 function priceListScrollMobile() {
   window.scrollTo({
-    top: vh * 600,
+    top: window.visualViewport.height * 6,
     behavior: 'smooth',
   });
   return closeNavMobile();
@@ -124,7 +121,7 @@ function priceListScrollMobile() {
 
 function contactScrollMobile() {
   window.scrollTo({
-    top: vh * 700,
+    top: window.visualViewport.height * 7,
     behavior: 'smooth',
   });
   return closeNavMobile();
