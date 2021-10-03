@@ -71,13 +71,39 @@
   }
 
   section.ourServicesSection {
-    height: 200vh;
+    height: 400vh;
+  }
+
+  section.ourServicesSection .ourServicesBlockSection {
+    margin-top: 0;
+    margin-left: 12.5vw;
+  }
+
+  section.ourServicesSection .ourServicesBlockSection .ourServicesFirstCard {
+    float: left;
+    margin-top: 23vh;
+    margin-right: 12.5vw;
+  }
+
+  section.ourServicesSection .ourServicesBlockSection .ourServicesSecondCard {
+    right: 12.5vw;
+    margin-top: 23vh;
+  }
+
+  section.ourServicesSection .ourServicesBlockSection .ourServicesImage img {
+    width: 75vw;
+    height: 70vh;
+    margin-top: 23vh;
+  }
+
+  section.ourServicesSection .ourServicesBlockSection .ourServicesSecondImage {
+    position: absolute;
+    top: 281.5vh;
   }
 
   section.ourServicesSection .ourServicesCard {
     width: 75vw;
     height: 70vh;
-    margin-top: 23vh;
     float: none;
   }
 
@@ -108,7 +134,7 @@
   }
 
   section.priceListSection {
-    top: 400vh;
+    top: 600vh;
     height: 100vh;
   }
 
@@ -165,7 +191,7 @@
   }
 
   section.contactSection {
-    top: 500vh;
+    top: 700vh;
     height: 100vh;
   }
 
@@ -183,10 +209,10 @@
   }
 
   section.contactSection .contactText h2 {
-    float: left;
-    margin-left: 8vh;
-    margin-right: 8vh;
-    font-size: 3.5vh;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3vh;
     margin-bottom: 4vh;
     color: #ddd;
   }
@@ -199,7 +225,7 @@
 
   section.contactSection .contactText h3 {
     clear: both;
-    font-size: 3vh;
+    font-size: 2.7vh;
   }
 }
 

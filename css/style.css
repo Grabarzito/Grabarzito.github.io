@@ -219,14 +219,14 @@ section.ourServicesSection {
   top: 200vh;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   background-color: #0c0029;
   z-index: 1;
 }
 
 section.priceListSection {
   position: absolute;
-  top: 300vh;
+  top: 400vh;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -325,7 +325,7 @@ section.priceListSection .priceListDiv button:hover {
 
 section.contactSection {
   position: absolute;
-  top: 400vh;
+  top: 500vh;
   left: 0;
   width: 100vw;
   height: 100vh;

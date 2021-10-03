@@ -2,23 +2,32 @@ section.ourServicesSection .ourServicesCard {
   position: relative;
   width: 30vw;
   height: 70vh;
-  margin-top: 23vh;
   background-color: #0c002b;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 0 5vw 8vw rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  float: left;
 }
 
-section.ourServicesSection .ourServicesCard:nth-child(1) {
+section.ourServicesSection .ourServicesBlockSection {
+  margin-top: 23vh;
   margin-left: 12.5vw;
+}
+
+section.ourServicesSection .ourServicesBlockSection .ourServicesFirstCard {
+  float: left;
   margin-right: 12.5vw;
 }
 
-section.ourServicesSection .ourServicesCard:nth-child(2) {
-  margin-right: 12.5vw;
+section.ourServicesSection .ourServicesBlockSection .ourServicesSecondCard {
+  position: absolute;
+  right: 15vw;
+}
+
+section.ourServicesSection .ourServicesBlockSection .ourServicesImage img {
+  width: 30vw;
+  height: 70vh;
 }
 
 section.ourServicesSection .ourServicesCard::before {
@@ -49,7 +58,7 @@ section.ourServicesSection .ourServicesCard .cardContent p {
   line-height: 1.5;
 }
 
-section.ourServicesSection .ourServicesCard:hover .cardContent p {
+section.ourServicesSection .ourServicesBlockSection:hover .ourServicesCard .cardContent p {
   opacity: 0.8;
 }
 
@@ -58,7 +67,7 @@ section.ourServicesSection .ourServicesCard span {
   transition: 0.5s;
 }
 
-section.ourServicesSection .ourServicesCard:hover span {
+section.ourServicesSection .ourServicesBlockSection:hover .ourServicesCard span {
   opacity: 1;
   transition: 0.5s;
 }
