@@ -20,6 +20,14 @@ const menuBar3Var = document.querySelector('.bar3');
 const menuVar = document.querySelector('.menu');
 let menuOpen = false;
 
+const englishLanguage = function() {
+  window.location.href = 'index.html';
+}
+
+const polishLanguage = function() {
+  window.location.href = 'polish.html';
+}
+
 const openNavMobile = function() {
   menuBtnVar.classList.add('open');
   menuOpen = true;

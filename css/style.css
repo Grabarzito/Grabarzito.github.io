@@ -44,6 +44,22 @@ body {
   transition: 0.3s;
 }
 
+.contactTop .languages {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 12vw;
+  height: 5vh;
+  margin-top: 1.25vh;
+}
+
+.contactTop .languages img {
+  width: 2.5vw;
+  height: 2.5vh;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
 nav {
   position: fixed;
   top: 5.5vh;
@@ -162,8 +178,8 @@ main .mainTitle h1 {
 main .moreInfo {
   position: absolute;
   top: 86vh;
-  left: 40.5vw;
-  width: 16vw;
+  left: 37vw;
+  width: 25vw;
   height: 14vh;
   text-align: center;
 }
