@@ -104,3 +104,13 @@ nav .logoText2 {
   -webkit-transform: rotate(45deg) translate(-1.6vh, -0.7vh);
   transform: rotate(45deg) translate(-1.6vh, -0.7vh);
 }
+
+.nav-mobile .menu .languages {
+  margin-top: 25vh;
+}
+
+.nav-mobile .menu img {
+  width: 18vw;
+  height: 5vh;
+  margin: 0 5vw;
+}

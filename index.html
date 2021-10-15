@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+lead<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -82,6 +82,11 @@
         <div class="contactMobileNav" onclick="contactScrollMobile()">
           Contact
         </div>
+
+        <div class="languages">
+          <img src="img/english.png" alt="english language" onclick="englishLanguage()">
+          <img src="img/polish.png" alt="polish language" onclick="polishLanguage()">
+        </div>
       </div>
     </div>
 
@@ -153,7 +158,7 @@
       <div class="priceListDiv">
         <div class="aluminiumDiv priceListDivXD">
           <span class="spanName">Aluminium:</span>
-          <span class="spanPriceFirst">0.40-0.90</span>
+          <span class="spanPriceFirst">0.50-0.80</span>
           <span class="spanPriceSecond">£/kg</span>
           <span class="aluminiumPrice"></span>
           <input type="number" class="aluminiumInput" placeholder="Enter weight (kgs)">
@@ -162,7 +167,7 @@
         </div>
         <div class="copperDiv priceListDivXD">
           <span class="spanName">Copper:</span>
-          <span class="spanPriceFirst">4.00-5.00</span>
+          <span class="spanPriceFirst">4.20-5.20</span>
           <span class="spanPriceSecond">£/kg</span>
           <span class="copperPrice"></span>
           <input type="number" class="copperInput" placeholder="Enter weight (kgs)">
@@ -171,7 +176,7 @@
         </div>
         <div class="brassDiv priceListDivXD">
           <span class="spanName">Brass:</span>
-          <span class="spanPriceFirst">2.00-2.70</span>
+          <span class="spanPriceFirst">2.20-2.70</span>
           <span class="spanPriceSecond">£/kg</span>
           <span class="brassPrice"></span>
           <input type="number" class="brassInput" placeholder="Enter weight (kgs)">
@@ -179,11 +184,51 @@
         </div>
         <div class="cablesDiv priceListDivXD">
           <span class="spanName">Cables:</span>
-          <span class="spanPriceFirst">0.50-2.60</span>
+          <span class="spanPriceFirst">0.70-2.50</span>
           <span class="spanPriceSecond">£/kg</span>
           <span class="cablesPrice"></span>
           <input type="number" class="cablesInput" placeholder="Enter weight (kgs)">
           <button type="button" class="cablesSubmitPriceBtn" onclick= "cablesSubmitPrice()">Check price</button>
+        </div>
+        <div class="zincDiv priceListDivXD">
+          <span class="spanName">Zinc:</span>
+          <span class="spanPriceFirst">0.50-0.70</span>
+          <span class="spanPriceSecond">£/kg</span>
+          <span class="zincPrice"></span>
+          <input type="number" class="zincInput" placeholder="Enter weight (kgs)">
+          <button type="button" class="zincSubmitPriceBtn" onclick= "zincSubmitPrice()">Check price</button>
+        </div>
+        <div class="leadDiv priceListDivXD">
+          <span class="spanName">Lead:</span>
+          <span class="spanPriceFirst">0.90-1.10</span>
+          <span class="spanPriceSecond">£/kg</span>
+          <span class="leadPrice"></span>
+          <input type="number" class="leadInput" placeholder="Enter weight (kgs)">
+          <button type="button" class="leadSubmitPriceBtn" onclick= "leadSubmitPrice()">Check price</button>
+        </div>
+        <div class="steelDiv priceListDivXD">
+          <span class="spanName">Steel:</span>
+          <span class="spanPriceFirst">0.50-0.90</span>
+          <span class="spanPriceSecond">£/kg</span>
+          <span class="steelPrice"></span>
+          <input type="number" class="steelInput" placeholder="Enter weight (kgs)">
+          <button type="button" class="steelSubmitPriceBtn" onclick= "steelSubmitPrice()">Check price</button>
+        </div>
+        <div class="nickelDiv priceListDivXD">
+          <span class="spanName">Nickel:</span>
+          <span class="spanPriceFirst">8.00-11.50</span>
+          <span class="spanPriceSecond">£/kg</span>
+          <span class="nickelPrice"></span>
+          <input type="number" class="nickelInput" placeholder="Enter weight (kgs)">
+          <button type="button" class="nickelSubmitPriceBtn" onclick= "nickelSubmitPrice()">Check price</button>
+        </div>
+        <div class="ironDiv priceListDivXD">
+          <span class="spanName">Iron:</span>
+          <span class="spanPriceFirst">0.07-0.12</span>
+          <span class="spanPriceSecond">£/kg</span>
+          <span class="ironPrice"></span>
+          <input type="number" class="ironInput" placeholder="Enter weight (kgs)">
+          <button type="button" class="ironSubmitPriceBtn" onclick= "ironSubmitPrice()">Check price</button>
         </div>
       </div>
     </section>

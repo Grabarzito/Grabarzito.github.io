@@ -244,8 +244,8 @@ section.priceListSection {
   position: absolute;
   top: 400vh;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 200vw;
+  height: 200vh;
   background-color: #08001b;
   color: white;
   z-index: 1;
@@ -253,7 +253,7 @@ section.priceListSection {
 
 section.priceListSection .priceListDiv {
   width: 90vw;
-  height: 60vh;
+  height: 130vh;
   margin-top: 28vh;
   margin-left: 4.5vw;
   z-index: 2;
@@ -268,7 +268,7 @@ section.priceListSection .priceListDiv .priceListDivXD {
   border-bottom: 0.5vh solid royalblue;
 }
 
-section.priceListSection .priceListDiv .cablesDiv {
+section.priceListSection .priceListDiv .priceListDivXD:nth-last-of-type(1) {
   border: none;
 }
 
@@ -284,7 +284,7 @@ section.priceListSection .priceListDiv .spanName {
 }
 
 section.priceListSection .priceListDiv .spanPriceFirst {
-  width: 12vw;
+  width: 14vw;
   font-size: 4.5vh;
   letter-spacing: 0.1vw;
 }
@@ -341,7 +341,7 @@ section.priceListSection .priceListDiv button:hover {
 
 section.contactSection {
   position: absolute;
-  top: 500vh;
+  top: 600vh;
   left: 0;
   width: 100vw;
   height: 100vh;

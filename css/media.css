@@ -65,6 +65,8 @@
   }
 
   section.aboutCompanySection p {
+    height: 60vh;
+    padding-top: 5vh;
     font-size: 2.5vh;
     line-height: 1.7;
     letter-spacing: 0.1vw;
@@ -135,12 +137,12 @@
 
   section.priceListSection {
     top: 600vh;
-    height: 100vh;
+    height: 215vh;
   }
 
   section.priceListSection .priceListDiv {
     width: 90vw;
-    height: 80vh;
+    height: 185vh;
     margin-top: 15vh;
   }
 
@@ -152,11 +154,8 @@
     border-bottom: 0.5vh solid royalblue;
   }
 
-  section.priceListSection .priceListDiv .cablesDiv {
-    border: none;
-  }
-
   section.priceListSection .priceListDiv .spanName {
+    margin-top: 2vh;
     height: 4vh;
     width: 82vw;
     font-size: 3.5vh;
@@ -164,9 +163,9 @@
   }
 
   section.priceListSection .priceListDiv .spanPriceFirst {
-    width: 34vw;
+    width: 36vw;
     margin-left: 20vw;
-    line-height: 5vh;
+    line-height: 10vh;
     padding-bottom: 5vh;
     font-size: 3.5vh;
     text-align: center;
@@ -191,7 +190,7 @@
   }
 
   section.contactSection {
-    top: 700vh;
+    top: 815vh;
     height: 100vh;
   }
 
@@ -301,7 +300,8 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
   }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px)
+  {
   main .titleLine .spanMainTitle {
     display: inline;
   }
