@@ -37,7 +37,7 @@
   }
 
   main .mainTitle h1 {
-    font-size: 8.5vh;
+    font-size: 9.5vh;
     line-height: 10vh;
     letter-spacing: 0.15vw;
     text-shadow: 0.75vw 0.75vw black;
@@ -137,13 +137,14 @@
 
   section.priceListSection {
     top: 600vh;
+    width: 100vw;
     height: 215vh;
   }
 
   section.priceListSection .priceListDiv {
-    width: 90vw;
-    height: 185vh;
-    margin-top: 15vh;
+    max-width: 90vw;
+    height: 149vh;
+    margin-top: 33vh;
   }
 
   section.priceListSection .priceListDiv .priceListDivXD {
@@ -221,9 +222,9 @@
   }
 
   section.contactSection .contactText h2.email {
-    margin-left: 5vw;
+    margin-left: 61vw;
     margin-bottom: 15vh;
-    font-size: 4vh;
+    font-size: 2.5vh;
   }
 
   section.contactSection .contactText h3 {
@@ -264,7 +265,7 @@ section.ourServicesSection .ourServicesCard span:nth-child(4) {
   }
 
   main .mainTitle h1 {
-    font-size: 8.5vh;
+    font-size: 9.5vh;
     line-height: 10vh;
     letter-spacing: 0.15vw;
     text-shadow: 0.75vw 0.75vw black;

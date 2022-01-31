@@ -253,7 +253,7 @@ section.priceListSection {
 
 section.priceListSection .priceListDiv {
   width: 90vw;
-  height: 130vh;
+  height: 102vh;
   margin-top: 28vh;
   margin-left: 4.5vw;
   z-index: 2;
@@ -367,12 +367,18 @@ section.contactSection .contactText h1 {
   text-shadow: 0.35vw 0.35vw black;
 }
 
-section.contactSection .contactText h2 {
+section.contactSection .contactText h2:nth-of-type(1) {
   font-size: 4vh;
   color: #ddd;
   float: left;
-  margin-left: 12vw;
+  margin-left: 6vw;
   margin-bottom: 10vh;
+}
+
+section.contactSection .contactText h2:nth-of-type(2) {
+  float: right;
+  margin-left: 0vw;
+  margin-right: 6vw;
 }
 
 section.contactSection .contactText h3 {
